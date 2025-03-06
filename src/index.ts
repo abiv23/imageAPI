@@ -1,16 +1,10 @@
 import { ImageController } from './ImageController';
 
 const controller = new ImageController();
-controller.start();
-
-// Optional: Stop after 10 seconds to see it end
-// setTimeout(() => {
-//     controller.stop();
-//     console.log("Stopped");
-// }, 10000);
 
 // import { ImageController } from './ImageController';
 
+// optional custom config
 // const customConfig = {
 //     feedbackText: {
 //         blurry: "Hold Still",
@@ -23,4 +17,4 @@ controller.start();
 // };
 
 // const controller = new ImageController(customConfig);
-// controller.start();
+controller.start();
