@@ -15,14 +15,14 @@ This mini library simulates real-time image quality analysis, generating mock im
 
 2. Install Dependencies:
 Run this to install Webpack and TypeScript (already in package.json):
-```bash
+   ```bash
     npm install
 
 3. Run the Dev Server:
-```bash
+   ```bash
     npm run start
 
 4. View It:
 
-``` bash
-    http://localhost:3000
+   ``` bash
+    http://localhost:8080
